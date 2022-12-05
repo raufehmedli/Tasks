@@ -59,6 +59,7 @@ namespace TedbirTask
                 ticket.End = end;
                 ticket.Row = row;
                 ticket.Column = column;
+                Tickets.Add(ticket);
 
                 Console.WriteLine(@$"Bilet nomresi :{id} 
 Ad,Soyad: {name} {lastname}
