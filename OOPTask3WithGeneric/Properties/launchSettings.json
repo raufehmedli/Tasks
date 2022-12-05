@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "OOPTask3WithList": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
