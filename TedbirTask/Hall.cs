@@ -14,7 +14,7 @@ namespace TedbirTask
         public int row;
         public int col;
         public bool[,] places = { };
-        public List<Ticket> Tickets;
+        public List<Ticket>Tickets = new List<Ticket>();
         public Hall(int id, string name, int row, int col)
         {
             Id = id;
@@ -22,7 +22,6 @@ namespace TedbirTask
             this.row = row;
             this.col = col;
             places = new bool[row, col];
-            Tickets = new List<Ticket>();
         }
 
         public void GetStatus()
@@ -71,7 +70,7 @@ Sira ve sutun : {row} - {column}");
             }
             else
             {
-                Console.WriteLine("Bu yer artiq dolmushdur");
+                Console.WriteLine("Bu bileti almaga icaze yoxdur");
             }
         }
         public void UpdateTicket(int _id, int row,int column)
@@ -80,10 +79,11 @@ Sira ve sutun : {row} - {column}");
             {
                 if (ticket.Id == _id)
                 {
+                places[ticket.Row-1,ticket.Column-1]=false;
                 ticket.Row = row;
                 ticket.Column = column;
+                places[row - 1, column - 1] = true;
                 }
-
             }
         }
     }
