@@ -34,7 +34,6 @@ namespace KitabxanaTask
             library.OrderBook(book3);
             library.RefundBook(book1);
             Console.WriteLine(library.Status());
-
         }
     }
 }

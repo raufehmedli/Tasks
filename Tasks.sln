@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringMEthod", "StringMEtho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TedbirTask", "TedbirTask\TedbirTask.csproj", "{75E04801-F5C4-4FB5-9713-30B2C1ECE87F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitabxanaTask", "KitabxanaTask\KitabxanaTask.csproj", "{CE124AD0-1A11-4519-B51E-603A4771EFFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KitabxanaTask", "KitabxanaTask\KitabxanaTask.csproj", "{CE124AD0-1A11-4519-B51E-603A4771EFFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionTask", "ExceptionTask\ExceptionTask.csproj", "{09C8C25F-DC1F-42D2-A29F-3303939A50A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{679865C7-B1A8-432D-B7B6-8569F48C0952}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{CE124AD0-1A11-4519-B51E-603A4771EFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE124AD0-1A11-4519-B51E-603A4771EFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE124AD0-1A11-4519-B51E-603A4771EFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C8C25F-DC1F-42D2-A29F-3303939A50A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C8C25F-DC1F-42D2-A29F-3303939A50A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C8C25F-DC1F-42D2-A29F-3303939A50A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C8C25F-DC1F-42D2-A29F-3303939A50A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679865C7-B1A8-432D-B7B6-8569F48C0952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679865C7-B1A8-432D-B7B6-8569F48C0952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679865C7-B1A8-432D-B7B6-8569F48C0952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679865C7-B1A8-432D-B7B6-8569F48C0952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

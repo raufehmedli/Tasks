@@ -445,3 +445,43 @@
 //{
 //    Console.WriteLine("olmaz");
 //}
+//int b=int.Parse(Console.ReadLine());
+//int c=int.Parse(Console.ReadLine());
+//int d = 1;
+//for (int a = int.Parse(Console.ReadLine()); a <= b; a++)
+//{
+//	for (int i = 1; i <=c; i++)
+//	{
+//		d = d * a;
+//	}
+//	Console.WriteLine(a);
+//	Console.WriteLine(d);
+//}
+
+//int a = int.Parse(Console.ReadLine());
+
+// if (a % 5 == 0 && a % 3 == 0)
+//{
+//    Console.WriteLine("bu eded 3e ve 5e bolunur");
+//}
+//else if (a % 3 == 0)
+//{
+//    Console.WriteLine("bu eded 3e bolunur");
+//}
+//else if (a % 5 == 0)
+//{
+//    Console.WriteLine("bu eded 5e bolunur");
+//}
+//else
+//{
+//    Console.WriteLine("bu eded ne 3e ne 5e bolunur");
+//}
+//int x = int.Parse(Console.ReadLine());
+//for (int i = 1; i <= x; i++)
+//{
+//	for (int n = 2; n <= i; n++)
+//	{
+//		Console.Write(i);
+//	}
+//	Console.WriteLine(i);
+//}
